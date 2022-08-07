@@ -1,0 +1,16 @@
+1 Country: France, Name: Leclerc, Engine Power: 1474 hp, Weight: 53.7 tonnes, Power Density: 27.45 hp/t
+2 Country: China, Name: ZTZ99A, Engine Power: 1500 hp, Weight: 55.0 tonnes, Power Density: 27.27 hp/t
+3 Country: USSR, Name: Т-80БВМ, Engine Power: 1250 hp, Weight: 46.0 tonnes, Power Density: 27.17 hp/t
+4 Country: Japan, Name: Type 10, Engine Power: 1200 hp, Weight: 44.4 tonnes, Power Density: 27.03 hp/t
+5 Country: France, Name: Leclerc S2, Engine Power: 1474 hp, Weight: 56.2 tonnes, Power Density: 26.23 hp/t
+6 Country: France, Name: Leclerc SXXI, Engine Power: 1474 hp, Weight: 56.2 tonnes, Power Density: 26.23 hp/t
+7 Country: Germany, Name: Leopard 2A5, Engine Power: 1500 hp, Weight: 59.5 tonnes, Power Density: 25.21 hp/t
+8 Country: Germany, Name: Leopard 2A6, Engine Power: 1500 hp, Weight: 60.1 tonnes, Power Density: 24.96 hp/t
+9 Country: USA, Name: M1A2 Abrams, Engine Power: 1519 hp, Weight: 61.7 tonnes, Power Density: 24.62 hp/t
+10 Country: Sweden, Name: Strv 122A, Engine Power: 1500 hp, Weight: 62.5 tonnes, Power Density: 24.0 hp/t
+11 Country: Sweden, Name: Strv 122B PLSS, Engine Power: 1500 hp, Weight: 62.5 tonnes, Power Density: 24.0 hp/t
+12 Country: Israel, Name: Merkava Mk.4B, Engine Power: 1500 hp, Weight: 65.0 tonnes, Power Density: 23.08 hp/t
+13 Country: Israel, Name: Merkava Mk.4M, Engine Power: 1500 hp, Weight: 65.5 tonnes, Power Density: 22.9 hp/t
+14 Country: Britain, Name: Challenger 2 (2F), Engine Power: 1217 hp, Weight: 62.5 tonnes, Power Density: 19.47 hp/t
+15 Country: Britain, Name: Black Night, Engine Power: 1217 hp, Weight: 62.5 tonnes, Power Density: 19.47 hp/t
+16 Country: Britain, Name: Challenger 2 TES, Engine Power: 1217 hp, Weight: 74.8 tonnes, Power Density: 16.27 hp/t
