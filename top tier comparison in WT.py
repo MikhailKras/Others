@@ -18,7 +18,7 @@ usa_names = ['M1A2 Abrams']
 usa_params = [(1519, 61.7)]
 usa_dict = gen_dict('USA', usa_names, usa_params)
 
-ussr_names = ['Т-80БВМ']
+ussr_names = ['T-80BVM']
 ussr_params = [(1250, 46.0)]
 ussr_dict = gen_dict('USSR', ussr_names, ussr_params)
 

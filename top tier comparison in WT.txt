@@ -1,6 +1,6 @@
 1 Country: France, Name: Leclerc, Engine Power: 1474 hp, Weight: 53.7 tonnes, Power Density: 27.45 hp/t
 2 Country: China, Name: ZTZ99A, Engine Power: 1500 hp, Weight: 55.0 tonnes, Power Density: 27.27 hp/t
-3 Country: USSR, Name: Т-80БВМ, Engine Power: 1250 hp, Weight: 46.0 tonnes, Power Density: 27.17 hp/t
+3 Country: USSR, Name: T-80BVM, Engine Power: 1250 hp, Weight: 46.0 tonnes, Power Density: 27.17 hp/t
 4 Country: Japan, Name: Type 10, Engine Power: 1200 hp, Weight: 44.4 tonnes, Power Density: 27.03 hp/t
 5 Country: France, Name: Leclerc S2, Engine Power: 1474 hp, Weight: 56.2 tonnes, Power Density: 26.23 hp/t
 6 Country: France, Name: Leclerc SXXI, Engine Power: 1474 hp, Weight: 56.2 tonnes, Power Density: 26.23 hp/t
