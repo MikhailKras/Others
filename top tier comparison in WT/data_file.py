@@ -1,7 +1,8 @@
 def gen_dict(country: str, name_list: list, param_list: list) -> dict:
     return {name: param for name, param in
-            zip(tuple(zip((country for _ in range(len(name_list))), name_list)), list(map(lambda x, y: (x, y, round(x/y, 2)),
-                                    [hp[0] for hp in param_list], [weight[1] for weight in param_list])))}
+            zip(tuple(zip((country for _ in range(len(name_list))), name_list)), list(map(lambda x, y: (x, y, round(x / y, 2)),
+                                                                                          [hp[0] for hp in param_list],
+                                                                                          [weight[1] for weight in param_list])))}
 
 
 britain_names = ['Challenger 2 (2F)', 'Challenger 2 TES', 'Black Night']
@@ -47,5 +48,5 @@ sort_dict = sorted(merge_dict.items(), key=lambda x: x[-1][-1], reverse=True)
 if __name__ == '__main__':
     with open('output_file.txt', mode='w', encoding='utf-8') as file:
         for place, tank in enumerate(sort_dict):
-            print(f'{place+1} Country: {tank[0][0]}, Name: {tank[0][-1]}, Engine Power: {tank[-1][0]} hp, Weight: {tank[-1][1]} tonnes, '
+            print(f'{place + 1} Country: {tank[0][0]}, Name: {tank[0][-1]}, Engine Power: {tank[-1][0]} hp, Weight: {tank[-1][1]} tonnes, '
                   f'Power Density: {tank[-1][-1]} hp/t', file=file)
