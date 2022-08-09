@@ -4,12 +4,6 @@ def gen_dict(country: str, name_list: list, param_list: list) -> dict:
                                     [hp[0] for hp in param_list], [weight[1] for weight in param_list])))}
 
 
-# def column_name(name_col: str, index1: int, index2:int, lst: list, last=False) -> str:
-#     if last:
-#         return name_col
-#     return name_col + ''.join([' ' for _ in range(max([len(str(x)) for x in list(map(lambda elem: elem[index1][index2], lst))]) - len(name_col))])
-
-
 britain_names = ['Challenger 2 (2F)', 'Challenger 2 TES', 'Black Night']
 britain_params = [(1217, 62.5), (1217, 74.8), (1217, 62.5)]
 britain_dict = gen_dict('Britain', britain_names, britain_params)
@@ -46,24 +40,12 @@ israel_names = ['Merkava Mk.4B', 'Merkava Mk.4M']
 israel_params = [(1500, 65.0), (1500, 65.5)]
 israel_dict = gen_dict('Israel', israel_names, israel_params)
 
-# print(britain_dict, ussr_dict, ussr_dict, japan_dict, france_dict, germany_dict, china_dict, sweden_dict, israel_dict,
-#       sep='\n')
-
 merge_dict = {**britain_dict, **usa_dict, **ussr_dict, **japan_dict, **france_dict, **germany_dict, **china_dict,
               **sweden_dict, **israel_dict}
 sort_dict = sorted(merge_dict.items(), key=lambda x: x[-1][-1], reverse=True)
 
-with open('top tier comparison in WT.txt', mode='w', encoding='utf-8') as file:
-    for place, tank in enumerate(sort_dict):
-        print(f'{place+1} Country: {tank[0][0]}, Name: {tank[0][-1]}, Engine Power: {tank[-1][0]} hp, Weight: {tank[-1][1]} tonnes, '
-              f'Power Density: {tank[-1][-1]} hp/t', file=file)
-
-# with open('top tier comparison in WT.txt', mode='w', encoding='utf-8') as file:
-#     name_columns_list  = [('Country', (0, 0)), ('Name', (0, 1)), ('Engine Power', (1, 0)), ('Weight', (1, 1)), ('Power Density', (1, 2))]
-#     name_columns_string = '  '
-#     for name_column, indexes in name_columns_list:
-#         name_columns_string += column_name(name_column, indexes[0], indexes[1], sort_dict)
-#     print(name_columns_string, file=file)
-#     for place, tank in enumerate(sort_dict):
-#         print(f'{place} {tank[0][0]} {tank[0][-1]} {tank[-1][0]} {tank[-1][1]} '
-#               f'{tank[-1][-1]}', file=file)
+if __name__ == '__main__':
+    with open('output_file.txt', mode='w', encoding='utf-8') as file:
+        for place, tank in enumerate(sort_dict):
+            print(f'{place+1} Country: {tank[0][0]}, Name: {tank[0][-1]}, Engine Power: {tank[-1][0]} hp, Weight: {tank[-1][1]} tonnes, '
+                  f'Power Density: {tank[-1][-1]} hp/t', file=file)
